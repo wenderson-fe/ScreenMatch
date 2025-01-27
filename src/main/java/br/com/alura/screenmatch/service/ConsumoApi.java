@@ -24,6 +24,7 @@ public class ConsumoApi {
         }
 
         String json = response.body();
+        System.out.println(json);
         return json;
     }
 }
